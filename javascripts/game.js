@@ -42,8 +42,6 @@ Bola = function(){
                       (keysPressed[40] ?  1 : 0);  //down
             var next_x = this.x + (keysPressed[37] ? -1 : 0) + //left
                       (keysPressed[39] ?  1 : 0); //rigth
-            console.log(next_y);
-            console.log(next_x);
             if (next_y >= 0 && next_y < 385) this.y = next_y;
             if (next_x >= 0 && next_x < 585) this.x = next_x;
         }
